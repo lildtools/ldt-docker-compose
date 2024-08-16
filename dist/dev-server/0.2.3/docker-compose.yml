@@ -1,7 +1,7 @@
-## v0.2.2
+## v0.2.3
 name: ldt-dev-server
 networks:
-  dev-server:
+  dev-server-net:
     name: dev-server-net
 services:
   vscode:
