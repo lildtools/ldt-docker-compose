@@ -1,4 +1,4 @@
-name: ldt-portainer-v0.1.0
+name: ldt-portainer-v0.2.0
 networks:
   portainer:
     name: portainer-net
