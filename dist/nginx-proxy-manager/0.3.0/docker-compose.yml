@@ -1,5 +1,3 @@
-## v0.2.1
-name: ldt-nginx-proxy-manager
 networks:
   nginx:
     name: nginx-net
