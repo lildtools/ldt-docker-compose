@@ -1,4 +1,4 @@
-name: ldt-dev-server-v0.1.0
+name: ldt-dev-server-v0.1.1
 networks:
   dev-server:
     name: dev-server-net
@@ -23,7 +23,7 @@ services:
       - 127.0.0.1:8443:8443
   pgadmin:
     image: dpage/pgadmin4:{{ PGADMIN__IMAGE_TAG }}
-    container_name: pgadmin-chr
+    container_name: pgadmin
     restart: unless-stopped
     user: root
     environment:
