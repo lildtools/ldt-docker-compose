@@ -1,4 +1,5 @@
-name: ldt-dev-server-v0.2.1
+## v0.2.2
+name: ldt-dev-server
 networks:
   dev-server:
     name: dev-server-net
