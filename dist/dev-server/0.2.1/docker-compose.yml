@@ -1,4 +1,4 @@
-name: ldt-dev-server-v0.2.0
+name: ldt-dev-server-v0.2.1
 networks:
   dev-server:
     name: dev-server-net
@@ -28,7 +28,7 @@ services:
     user: root
     environment:
       - PGADMIN_DEFAULT_EMAIL={{ PGADMIN__USER }}
-      - PGADMIN_DEFAULT_PASSWORD={{ PGADMIN__PASSWD }
+      - PGADMIN_DEFAULT_PASSWORD={{ PGADMIN__PASSWD }}
     volumes:
       - /srv/pgadmin/data:/var/lib/pgadmin
     networks:
