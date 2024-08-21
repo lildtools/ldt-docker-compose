@@ -52,7 +52,7 @@ services:
     volumes:
       - /srv/vscode/{{ DEV_SERVER__ID }}/config:/config
       - /srv/vscode/{{ DEV_SERVER__ID }}/srv:/srv
-      - /srv/vscode/{{ DEV_SERVER__ID }}/work:/work
+      - {{ CODE_SERVER__WORKDIR }}:/work
     networks:
       - dev-server-net
     ports:
